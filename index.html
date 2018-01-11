@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>THE CRYSTAL LAIR</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/style.css">
@@ -10,9 +10,43 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="header">This is where a title section would go</div>
-			<div>This is where the main content goes</div>
-			<div class="footer">This is a footer<div>
+			<div class="jumbotron">
+				<h1>A GAME OF CRYSTALS</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h4>To play, click one of my crystals below and I'll give you some points. If you can manage to make your score equal the target I'll give you, you'll win! But if you go over the target, I'll win -- and I love winning.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h5 id="status-text"></h5>
+				</div>
+			</div>
+			<div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Target: <a id="target"></a></h3>
+					</div>
+					<div class="col-md-6">
+						<h3>Current score: <a id="score"></a></h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Wins: <a id="wins">0</a></h3>
+					</div>
+					<div class="col-md-6">
+						<h3>Losses: <a id="losses">0</a></h3>
+					</div>
+				</div>
+				<div class="row pb-4">
+					<img class="crystal img-thumbnail mx-auto">
+					<img class="crystal img-thumbnail mx-auto">
+					<img class="crystal img-thumbnail mx-auto">
+					<img class="crystal img-thumbnail mx-auto">
+				</div>
+			</div>
 		</div>
 		<script type="text/javascript" src="assets/scripts.js"></script>
 	</body>

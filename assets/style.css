@@ -1,0 +1,21 @@
+body{
+	background: url("images/bg.jpg")
+}
+.container{
+	background: rgba(128,128,255,.5)
+}
+h1, h2, h3, h5{
+	color:white;
+	text-align: center;
+}
+h4{
+	color: white;
+}
+.jumbotron{
+	background: #660077;
+	text-align: center;
+}
+.crystal{
+	width: 20%;
+	height: 20%;
+}
